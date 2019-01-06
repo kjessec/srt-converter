@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/srt-converter/public/precache-manifest.c3cfa3cad4b040e60b9c95d84438fee5.js"
+  "/srt-converter/precache-manifest.b86abdc21671c44d3774696ac2e62d5b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/srt-converter/public/index.html", {
+workbox.routing.registerNavigationRoute("/srt-converter/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
