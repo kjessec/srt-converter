@@ -1,6 +1,7 @@
 {
   "name": "srt-converter",
   "version": "0.1.0",
+  "homepage": "https://kjessec.github.io/srt-converter/public/",
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
