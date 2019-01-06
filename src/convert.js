@@ -17,6 +17,5 @@ export default function convertSrt(content) {
       lineElem[1],
       // lineElem[2]
     ])
-    .slice(0, -1)
     .reduce((s, t) => s + '\n\n' + t[0] + '\n' + t[1], '');
 }
